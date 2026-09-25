@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.pnpm-store/
+*.tsbuildinfo
+.rag-data/
+__pycache__/
+.env.local
+
+00_X100_绝密_内部手册.md

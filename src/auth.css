@@ -1,0 +1,5 @@
+/* 这里只控制演示身份/授权控件的外观；真正的角色和 ACL 校验由 Python API 执行。 */
+.identity{display:flex;align-items:flex-start;gap:16px}
+.auth{flex-direction:row;align-items:center;margin-top:27px;white-space:nowrap}
+.auth input{accent-color:#667dff}
+@media(max-width:760px){.identity{margin-top:20px;flex-wrap:wrap}.auth{margin-top:0}}
